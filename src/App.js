@@ -1,13 +1,15 @@
-import bitters from '../src/_assets/bitters.jpg';
+// import bitters from '../src/_assets/bitters.jpg';
 import './App.css';
-import Blurb from '../src/components/blurb'
+import Navbar from './components/Layout/navigation';
+// import Blurb from '../src/components/blurb';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className='App'>
+      <Navbar></Navbar>
+      {/* <header className="App-header">
         <img src={bitters} className='App-logo' alt="drink with bitters" />
-        {/* https://unsplash.com/photos/YeH5EIRFCIs */}
+        {/* https://unsplash.com/photos/YeH5EIRFCIs
         <p>
           Bitter Boys
         </p>
@@ -20,7 +22,7 @@ function App() {
           App link
         </a>
       <Blurb />
-      </header>
+      </header> */}
     </div>
   );
 }
