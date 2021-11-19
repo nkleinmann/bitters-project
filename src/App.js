@@ -2,6 +2,7 @@
 import Navbar from './components/Layout/navigation';
 // import bitters from '../src/_assets/bitters.jpg';
 import './App.css';
+import Cards from './components/Cards';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </a>
       <Blurb />
       </header> */}
+      <Cards />
     </div>
   );
 }
