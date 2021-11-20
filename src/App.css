@@ -39,7 +39,7 @@
 }
 
 .navlink.about {
-  left: 15rem;
+  left: 14rem;
 }
 
 .navlink:hover {
@@ -48,6 +48,19 @@
 
 .navlink:focus {
   cursor: pointer;
+}
+
+.icons {
+  position: absolute;
+  top: 1.8rem;
+}
+
+.icons.search {
+  right: 3.5rem;
+}
+
+.icons.shoppingCart {
+  right: 1.5rem;
 }
 
 .footer {
