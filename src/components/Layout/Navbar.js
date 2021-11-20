@@ -7,7 +7,7 @@ import boybitters from '../../_assets/boybitters.jpg';
 function Navigation() {
   return (
     <Navbar className='nav' bg='light'>
-      <Navbar.Brand href='#home'>
+      <Navbar.Brand href='/'>
         <img
           src={boybitters}
           width='50'
@@ -31,6 +31,7 @@ function Navigation() {
       </Nav.Link>
       <div>
         <FontAwesomeIcon className=' icons search' icon='search' />
+        {/* <input type='text' placeholder='Search' className='searchBox active' /> */}
         <FontAwesomeIcon className=' icons shoppingCart' icon='shopping-cart' />
       </div>
     </Navbar>

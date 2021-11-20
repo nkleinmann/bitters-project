@@ -7,7 +7,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
   position: relative;
@@ -32,6 +33,7 @@
   position: absolute;
   top: auto;
   outline: none;
+  cursor: pointer;
 }
 
 .navlink.home {
@@ -46,13 +48,20 @@
   opacity: 0.6;
 }
 
-.navlink:focus {
-  cursor: pointer;
-}
+/* .searchBox {
+  display: none;
+  width: 4rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 3.5rem;
+  outline: none;
+  border-radius: 10px;
+} */
 
 .icons {
   position: absolute;
   top: 1.8rem;
+  cursor: pointer;
 }
 
 .icons.search {
@@ -67,11 +76,11 @@
   position: absolute;
   bottom: 0;
   width: 100vw;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .link {
-  color: black
+  color: black;
 }
 
 @media (min-width: 641px) {
