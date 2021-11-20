@@ -23,7 +23,7 @@ function Navigation() {
       </Nav.Link>
 
       <Nav.Link
-        href='#about'
+        href='/about'
         style={{ color: 'black' }}
         className='navlink about'
       >
