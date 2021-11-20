@@ -1,5 +1,5 @@
 import Navbar from './components/Layout/Navbar';
-import Cards from './components/Cards';
+import Cards from './components/Product/Cards';
 import Footer from './components/Layout/Footer';
 import './App.css';
 
