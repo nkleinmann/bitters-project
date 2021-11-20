@@ -48,6 +48,13 @@
   cursor: pointer;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 641px) {
   .navlink.home {
     left: 15rem;
