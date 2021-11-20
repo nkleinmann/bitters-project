@@ -23,25 +23,26 @@
   margin: 1px;
 }
 
-.navlink {
+.nav-link {
   color: #000;
+}
+
+.navlink {
+  position: absolute;
+  top: auto;
   outline: none;
 }
 
 .navlink.home {
-  position: absolute;
-  top: auto;
   left: 10rem;
 }
 
 .navlink.about {
-  position: absolute;
-  top: auto;
   left: 15rem;
 }
 
 .navlink:hover {
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .navlink:focus {
