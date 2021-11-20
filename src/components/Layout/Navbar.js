@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import boybitters from '../../_assets/boybitters.jpg';
 
 function Navigation() {
@@ -18,7 +19,7 @@ function Navigation() {
       <span className='brand'>Boy Bitters</span>
 
       <Nav.Link href='/' style={{ color: 'black' }} className='navlink home'>
-        Home
+        Store
       </Nav.Link>
 
       <Nav.Link
@@ -28,6 +29,10 @@ function Navigation() {
       >
         About
       </Nav.Link>
+      <div>
+        <FontAwesomeIcon className=' icons search' icon='search' />
+        <FontAwesomeIcon className=' icons shoppingCart' icon='shopping-cart' />
+      </div>
     </Navbar>
   );
 }
