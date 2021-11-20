@@ -16,9 +16,11 @@ function Navigation() {
         />
       </Navbar.Brand>
       <span className='brand'>Boy Bitters</span>
+
       <Nav.Link href='/' style={{ color: 'black' }} className='navlink home'>
         Home
       </Nav.Link>
+
       <Nav.Link
         href='#about'
         style={{ color: 'black' }}
