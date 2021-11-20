@@ -49,9 +49,20 @@
   cursor: pointer;
 }
 
+.searchBox {
+  display: none;
+  width: 4rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 3.5rem;
+  outline: none;
+  border-radius: 10px;
+}
+
 .icons {
   position: absolute;
   top: 1.8rem;
+  cursor: pointer;
 }
 
 .icons.search {
