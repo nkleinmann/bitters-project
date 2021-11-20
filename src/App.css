@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .App {
@@ -78,6 +79,10 @@
   bottom: 0;
   width: 100vw;
   margin-bottom: 10px;
+}
+
+.link {
+  color: black
 }
 
 @media (min-width: 641px) {

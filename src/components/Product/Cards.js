@@ -11,6 +11,7 @@ function Cards() {
                     <Product key={productInfo.title} productInfo={productInfo} />
                 )
             })}
+            <p><a href="https://www.instagram.com/boybitters/" className="link">#staythirsty</a></p>
         </div>
     )
 }
