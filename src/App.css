@@ -1,9 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: block;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -14,4 +16,52 @@
   display: flex;
   align-items: flex-start;
   border-radius: 50%;
+  margin-left: 10px;
+}
+
+.brand {
+  margin: 1px;
+}
+
+.navlink {
+  color: #000;
+  outline: none;
+}
+
+.navlink.home {
+  position: absolute;
+  top: auto;
+  left: 10rem;
+}
+
+.navlink.about {
+  position: absolute;
+  top: auto;
+  left: 15rem;
+}
+
+.navlink:hover {
+  opacity: 0.9;
+}
+
+.navlink:focus {
+  cursor: pointer;
+}
+
+@media (min-width: 641px) {
+  .navlink.home {
+    left: 15rem;
+  }
+  .navlink.about {
+    left: 20rem;
+  }
+}
+
+@media (min-width: 1008px) {
+  .navlink.home {
+    left: 20rem;
+  }
+  .navlink.about {
+    left: 25rem;
+  }
 }
