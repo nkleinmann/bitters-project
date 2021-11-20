@@ -4,6 +4,7 @@ import bitter3 from '../_assets/bitterMaking.jpg';
 import bitter4 from '../_assets/grapefruit.jpg';
 import bitter5 from '../_assets/bitterDesign.jpg';
 import harness1 from '../_assets/harness.png';
+import cocktail1 from '../_assets/Dan.jpg';
 
 const bitters = [
     {
@@ -47,6 +48,13 @@ const bitters = [
         text: 'description',
         link: 'https://www.google.com',
         image: harness1
+    },
+    {
+        title: 'drink recipe',
+        price: '',
+        text: 'description',
+        link: 'https://www.google.com',
+        image: cocktail1
     },
 ]
 
