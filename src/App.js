@@ -6,6 +6,7 @@ import Cards from './components/Product/Cards';
 import Footer from './components/Layout/Footer';
 import About from './views/aboutView';
 import Filter from './views/filterView';
+import ZoomCard from './components/Product/ZoomCard';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faShoppingCart, faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/' element={<Cards />} />
           <Route exact path='/about' element={<About />} />
           <Route exact path='/filter' element={<Filter />} />
+          <Route exact path='/card' element={<ZoomCard />} />
         </Routes>
       </Router>
       <Footer />
