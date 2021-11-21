@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'
-// import Col from 'react-bootstrap/Col'
+import Card from 'react-bootstrap/Card';
 
 function Product(props) {
+
     return (
         <>
                 <Card key={props.productInfo.title} style={{ width: '20rem' }} className="m-4">
@@ -17,7 +17,7 @@ function Product(props) {
                     {/* <Card.Text>{props.productInfo.text}</Card.Text>
                     <Card.Link href={props.productInfo.link}>Check it out</Card.Link> */}
                     </Card.Body>
-                </Card>              
+                </Card>            
         </>
 
     )
