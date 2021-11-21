@@ -1,10 +1,10 @@
-import Filter from '../components/Filter';
+import SearchBar from '../components/SearchBar';
 import Cards from '../components/Product/Cards';
 
 const filterView = () => {
   return (
     <>
-      <Filter />
+      <SearchBar />
       <Cards />
     </>
   );

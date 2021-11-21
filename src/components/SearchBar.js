@@ -1,16 +1,15 @@
 import React from 'react';
-import cardInfo from '../utils/cardInfo';
 
-function Filter() {
+function SearchBar() {
   return (
     <>
       <input
         type='text'
-        placeholder='Search'
         className='searchBox active mt-5'
+        placeholder='Search'
       />
     </>
   );
 }
 
-export default Filter;
+export default SearchBar;
