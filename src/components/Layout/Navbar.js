@@ -29,8 +29,10 @@ function Navigation() {
       >
         About
       </Nav.Link>
-      <div>
+      <a href='/filter' className="link">
         <FontAwesomeIcon className=' icons search' icon='search' />
+      </a>
+      <div>
         {/* <input type='text' placeholder='Search' className='searchBox active' /> */}
         <FontAwesomeIcon className=' icons shoppingCart' icon='shopping-cart' />
       </div>

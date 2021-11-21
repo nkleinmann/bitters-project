@@ -28,13 +28,13 @@ const bitters = [
         link: 'https://www.google.com',
         image: bitter3
     },
-    {
-        title: 'grapefruit bitters',
-        price: '$12',
-        text: 'description',
-        link: 'https://www.google.com',
-        image: bitter4
-    },
+    // {
+    //     title: 'grapefruit bitters',
+    //     price: '$12',
+    //     text: 'description',
+    //     link: 'https://www.google.com',
+    //     image: bitter4
+    // },
     {
         title: 'double bitters',
         price: '$35',
