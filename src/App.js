@@ -1,15 +1,16 @@
+// Imports the BrowserRouter, Route and Link components
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Navbar from './components/Layout/Navbar';
 import Cards from './components/Product/Cards';
 import Footer from './components/Layout/Footer';
-import About from './views/About';
-import Filter from './views/Filter';
+import About from './views/aboutView';
+import Filter from './views/filterView';
 import ZoomCard from './components/Product/ZoomCard';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faShoppingCart, faSearch } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
-// Imports the BrowserRouter, Route and Link components
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 library.add(fab, faShoppingCart, faSearch);
 
