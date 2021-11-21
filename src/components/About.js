@@ -9,18 +9,14 @@ function About() {
     <div>
       <Row className='p-3 justify-content-center'>
         <Col sm={8}>
-          <p className='blurb'>
-            This could be a blurb about the company and product.
-          </p>
-          <p>
-            I'm baby intelligentsia pok pok cloud bread bicycle rights, mlkshk
-            photo booth vape man bun try-hard. Franzen cred tousled portland.
-          </p>
           <img src={groupShot} alt='Dan and James' width='300px' />
         </Col>
       </Row>
       <Row className='p-3 justify-content-center'>
-        <Col sm={8}>
+        <Col sm={5}>
+          <p className='blurb'>
+            This could be a blurb about the company and product.
+          </p>
           <p className='blurb'>
             I'm baby intelligentsia pok pok cloud bread bicycle rights, mlkshk
             photo booth vape man bun try-hard. Franzen cred tousled portland.
