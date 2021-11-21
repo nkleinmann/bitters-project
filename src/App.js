@@ -1,30 +1,29 @@
-// import Blurb from '../src/components/blurb';
-import Navbar from './components/Layout/navigation';
-// import bitters from '../src/_assets/bitters.jpg';
+import Navbar from './components/Layout/Navbar';
+import Cards from './components/Product/Cards';
+import Footer from './components/Layout/Footer';
+import About from './views/About';
+import Filter from './views/Filter';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faShoppingCart, faSearch } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
-import Cards from './components/Cards';
+// Imports the BrowserRouter, Route and Link components
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+library.add(fab, faShoppingCart, faSearch);
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
-      {/* <header className="App-header">
-        <img src={bitters} className='App-logo' alt="drink with bitters" />
-        {/* https://unsplash.com/photos/YeH5EIRFCIs
-        <p>
-          Bitter Boys
-        </p>
-        <a
-          className="App-link"
-          href="https://shaquanda-will-feed-you.myshopify.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          App link
-        </a>
-      <Blurb />
-      </header> */}
-      <Cards />
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<Cards />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/filter' element={<Filter />} />
+        </Routes>
+      </Router>
+      <Footer />
     </div>
   );
 }

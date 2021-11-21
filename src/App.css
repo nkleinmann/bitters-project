@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
 .App {
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: block;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
   position: relative;
@@ -14,4 +18,85 @@
   display: flex;
   align-items: flex-start;
   border-radius: 50%;
+  margin-left: 10px;
+}
+
+.brand {
+  margin: 1px;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.navlink {
+  position: absolute;
+  top: auto;
+  outline: none;
+  cursor: pointer;
+}
+
+.navlink.home {
+  left: 10rem;
+}
+
+.navlink.about {
+  left: 14rem;
+}
+
+.navlink:hover {
+  opacity: 0.6;
+}
+
+/* .searchBox {
+  display: none;
+  width: 4rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 3.5rem;
+  outline: none;
+  border-radius: 10px;
+} */
+
+.icons {
+  position: absolute;
+  top: 1.8rem;
+  cursor: pointer;
+}
+
+.icons.search {
+  right: 3.5rem;
+}
+
+.icons.shoppingCart {
+  right: 1.5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 10px;
+}
+
+.link {
+  color: black;
+}
+
+@media (min-width: 641px) {
+  .navlink.home {
+    left: 15rem;
+  }
+  .navlink.about {
+    left: 20rem;
+  }
+}
+
+@media (min-width: 1008px) {
+  .navlink.home {
+    left: 20rem;
+  }
+  .navlink.about {
+    left: 25rem;
+  }
 }
